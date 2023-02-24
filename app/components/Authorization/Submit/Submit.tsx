@@ -12,8 +12,6 @@ type Props = {
 export const Submit = ({ resp }: Props) => (
   <div className={style.wrapper}>
     <button type="submit" className={style.btn}>Войти</button>
-    {resp.fogot && <Link href='/' className={style.forgotpass}>Не помню пароль</Link>}
-    {resp.remind && <Link href='/' className={style.forgotpass}>Забыли пароль?</Link>}
   </div>
 )
 
