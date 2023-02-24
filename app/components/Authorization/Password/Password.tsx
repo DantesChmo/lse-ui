@@ -5,11 +5,12 @@ import { ChangeEvent, RefObject, useRef } from 'react';
 
 type Props = {
   val: string
+  label:string
   handle: (e: ChangeEvent<HTMLInputElement>) => void
 }
 
 
-export const Password = ({ val, handle }: Props) => {
+export const Password = ({ val, handle, label}: Props) => {
 
   const inputElem = useRef<HTMLInputElement>(null)
 
@@ -23,10 +24,9 @@ export const Password = ({ val, handle }: Props) => {
 
   return (
     <div className={style.passwordWapper}>
-      <label htmlFor="1" className={style.label}>Пароль</label>
+      <label  className={style.label}>{label}</label>
       <input
         type="password"
-        id='1'
         ref={inputElem}
         placeholder='••••••'
         name='password'
