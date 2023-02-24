@@ -1,0 +1,29 @@
+.wrapper {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.btn {
+    width: 300px;
+    height: 48px;
+    background: #0078D2;
+    border-radius: 99px;
+    cursor: pointer;
+    outline: transparent;
+    border: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.forgotpass {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    align-items: center;
+    text-align: center;
+    color: rgba(0, 57, 92, 0.8);
+}

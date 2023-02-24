@@ -1,0 +1,23 @@
+.label {
+    display: block;
+    align-self: start;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: rgba(0, 32, 51, 0.6);
+    margin-bottom: 4px;
+}
+
+.input {
+    width: 300px;
+    padding: 8px 17px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 66, 105, 0.28);
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #002033;
+    margin-bottom: 24px;
+}
