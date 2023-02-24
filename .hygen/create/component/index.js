@@ -17,7 +17,7 @@ module.exports = {
     return inquirer.prompt(questions).then((answers) => {
       const {component_name, dir} = answers;
       const path = `${dir ? `${dir}/`: ''}${component_name}`;
-      const absPath = `./pages/components/${path}`
+      const absPath = `./app/components/${path}`
 
       return {...answers, path, absPath}
     })

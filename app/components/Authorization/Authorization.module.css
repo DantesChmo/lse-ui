@@ -23,48 +23,14 @@
     font-size: 20px;
     line-height: 150%;
     color: #002033;
+    margin-bottom: 16px;
 }
 
-.label {
-    align-self: start;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 150%;
-    color: rgba(0, 32, 51, 0.6);
-    margin-bottom: 4px;
-}
 
-.input {
-    position: relative;
-    width: 300px;
-    padding: 8px 17px;
-    height: 40px;
-    background: #FFFFFF;
-    border: 1px solid rgba(0, 66, 105, 0.28);
-    border-radius: 20px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    margin-bottom: 24px;
-}
 .input::placeholder {
     color: rgba(0, 32, 51, 0.35);
 }
 
-.btn {
-    width: 300px;
-    height: 48px;
-    background: #0078D2;
-    border-radius: 99px;
-    cursor: pointer;
-    outline: transparent;
-    border: none;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 48px;
-    color: #FFFFFF;
-    margin-bottom: 16px;
-}
 
 
 .info {
@@ -78,3 +44,4 @@
 .regLink {
     color: #0078D2
 }
+
